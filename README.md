@@ -12,9 +12,11 @@ O objetivo principal deste projeto é manter a constância nos estudos de lógic
 ## 📂 Estrutura do Repositório
 ```text
 ├── 01-Introduction
-│   ├── 01-if-else.py
-│   ├── solucao.py
-│   └── test_solucao.py
+│   ├── arithmetic_operators.py
+│   ├── if_else.py
+│   ├── test_arithmetic_operators.py
+│   └── test_if_else.py
+├── estrutura.txt
 ├── README.md
 └── requirements.txt
 ```
