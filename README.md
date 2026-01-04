@@ -16,7 +16,6 @@ O objetivo principal deste projeto é manter a constância nos estudos de lógic
 │   ├── if_else.py
 │   ├── test_arithmetic_operators.py
 │   └── test_if_else.py
-├── estrutura.txt
 ├── README.md
 └── requirements.txt
 ```
