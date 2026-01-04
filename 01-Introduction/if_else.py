@@ -19,23 +19,18 @@ Output Format
 Print Weird if the number is weird. Otherwise, print Not Weird.
 """
 
-import math
-import os
-import random
-import re
-import sys
+def check_weirdness(n):
+    if n % 2 != 0:
+        return "Weird"
+    else:
+        if n in range(2, 6):
+            return "Not Weird"
+        elif n in range(6, 21):
+            return "Weird"
+        elif n > 20:
+            return "Not Weird"
 
 if __name__ == '__main__':
-    n = int(input().strip())
-    
-    if n % 2 != 0:
-        print("Weird")
-    else:
-        # Range in Python is exclusive at the end, so 2 to 5 becomes range(2, 6)
-        if n in range(2, 6):
-            print("Not Weird")
-        # Range 6 to 20 becomes range(6, 21)
-        elif n in range(6, 21):
-            print("Weird")
-        elif n > 20:
-            print("Not Weird")
+    n = int(input("Digite um número: ").strip())
+    result = check_weirdness(n)
+    print(result)

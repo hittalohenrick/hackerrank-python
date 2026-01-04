@@ -1,4 +1,4 @@
-from solucao import check_weirdness
+from if_else import check_weirdness
 
 def test_impares():
     assert check_weirdness(3) == "Weird"

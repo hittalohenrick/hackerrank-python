@@ -9,4 +9,14 @@ O objetivo principal deste projeto é manter a constância nos estudos de lógic
 - **Lógica:** Melhorar o raciocínio algorítmico.
 - **Domínio da Linguagem:** Explorar recursos nativos do Python (List Comprehensions, Lambda, Map, etc.) úteis para automação e scripting.
 
+## 📂 Estrutura do Repositório
+```text
+├── 01-Introduction
+│   ├── 01-if-else.py
+│   ├── solucao.py
+│   └── test_solucao.py
+├── README.md
+└── requirements.txt
+```
+
 Este repositório é mantido para fins de estudo e portfólio.
