@@ -13,9 +13,13 @@ O objetivo principal deste projeto é manter a constância nos estudos de lógic
 ```text
 ├── 01-Introduction
 │   ├── arithmetic_operators.py
+│   ├── function.py
 │   ├── if_else.py
+│   ├── loop.py
 │   ├── test_arithmetic_operators.py
-│   └── test_if_else.py
+│   ├── test_function.py
+│   ├── test_if_else.py
+│   └── test_loop.py
 ├── README.md
 └── requirements.txt
 ```
